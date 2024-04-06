@@ -141,3 +141,5 @@ STORAGES = {
 }
 
 ALLOWED_HOSTS = ['localhost', 'web-production-d59a1.up.railway.app']
+
+CSRF_TRUSTED_ORIGINS = ['http://*','https://web-production-d59a1.up.railway.app']
