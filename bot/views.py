@@ -1,4 +1,9 @@
-from django.shortcuts import render
+from rest_framework import viewsets
 
-def render_bots(req):
-  return render(req, 'bots.html')
+from .models import Bot
+from .serializer import BotSerializer
+
+class BotViewSet(viewsets.ModelViewSet):
+  queryset = Bot.objects.all()
+  serializer_class = BotSerializer
+
