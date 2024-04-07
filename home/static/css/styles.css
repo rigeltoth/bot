@@ -1,4 +1,23 @@
+body {
+  /* background-color: #154360; */
+  background: radial-gradient(circle at top, #1F618D , #2C3E50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 .home {
-  color: red;
+  color: white;
   text-align: center;
+  width: auto;
+  padding: 2rem;
+  border: solid #5D6D7E;
+  margin-bottom: 20vh;
+  box-shadow: 0px 20px 39px 3px rgba(46, 64, 83, 1);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
